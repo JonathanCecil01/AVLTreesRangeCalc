@@ -4,7 +4,7 @@
 //
 //  Created by Jonathan Cecil on 02/09/21.
 //
-
+//jonathan Cecil
 #include <iostream>
 using namespace std;
 
@@ -17,11 +17,11 @@ class Node
     int height;
 };
 //to find height fo a node
-int height(Node *N)
+int height(Node *n)
 {
-    if (N == NULL)
+    if (n == NULL)
         return 0;
-    return N->height;
+    return n->height;
 }
 //to calculate max
 int max(int a, int b)
